@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col s6 offset-s3">
+      <div class="card">
+        <div class="col s12" style="text-align: center;">
+            <h2>Registration</h2>
+        </div>
+        <div class="card-content">
+            <form #registerForm="ngForm">
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input type="text" name="Trainee" #Name ngModel>
+                        <label>Trainee ID</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "input-field col s6">
+                        <i class="material-icons prefix"></i>
+                        <input type="text" name="First Name" #FirstName ngModel>
+                        <label>First Name</label>
+                    </div>
+                        <div class= "input-field col s6">
+                        <input type="text" name="Last Name" #LastName ngModel>
+                        <label>Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <i class="material-icons prefix">mail_outline</i>
+                        <input type="text" name="email" #Email ngModel>
+                        <label>Email ID</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <i class="material-icons prefix"></i>
+                        <input type="text" name="recruiterName" #RecName ngModel>
+                        <label>Recruiter Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <i class="material-icons prefix"></i>
+                        <input type="text" name="devDomain" #DoaminName ngModel>
+                        <label>Domain Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <i class="material-icons prefix"></i>
+                        <button class="btn-large btn-submit" type="submit">REGISTER</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
