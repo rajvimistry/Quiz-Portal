@@ -12,6 +12,7 @@ import { ResultComponent } from './result/result.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { appRoutes } from './routes';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     QuizComponent,
     ResultComponent,
     NavbarComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

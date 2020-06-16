@@ -1,0 +1,43 @@
+<div class="row">
+    <div class="col s6 offset-s3">
+      <div class="card">
+        <div class="col s12" style="text-align: center;">
+            <h2>Log In</h2>
+        </div>
+        <div class="card-content">
+            <form #registerForm="ngForm">
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <i class="material-icons prefix">mail_outline</i>
+                        <input type="text" name="email" #Email ngModel>
+                        <label>Email ID</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <i class="material-icons prefix"></i>
+                        <input type="password" name="password" #Password ngModel>
+                        <label>Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <i class="material-icons prefix"></i>
+                        <button class="btn-large btn-submit" type="submit">LOG IN</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <a [routerLink]="" (click)="onForgotPasswordClick()">Forgot Password?</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= "input-field col s12">
+                        <a [routerLink]="" (click)="onNewUserClick()">New User? Register</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
