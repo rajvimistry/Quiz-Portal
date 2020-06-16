@@ -11,6 +11,7 @@ import { QuizComponent } from './quiz/quiz.component';
 import { ResultComponent } from './result/result.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { appRoutes } from './routes';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { appRoutes } from './routes';
     RegisterComponent,
     QuizComponent,
     ResultComponent,
-    NavbarComponent
+    NavbarComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,
