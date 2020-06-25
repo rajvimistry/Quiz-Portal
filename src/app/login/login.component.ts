@@ -8,6 +8,7 @@ import { RouteReuseStrategy, Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
+  emailPattern = "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$";
   constructor(private route: Router) { }
 
   ngOnInit(): void {

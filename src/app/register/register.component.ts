@@ -10,7 +10,7 @@ export class RegisterComponent implements OnInit {
 
   domain:Domain[];
   selectedValue:Number;
-
+  emailPattern = "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$";
   constructor() { }
 
   ngOnInit(): void {
