@@ -10,6 +10,6 @@ export const appRoutes : Routes = [
     {path: 'result', component: ResultComponent},
     {path: 'forgotPassword', component:ForgotPasswordComponent},
     {path: 'login', component: LoginComponent},
-    {path: '', redirectTo:'/register', pathMatch: 'full'}
+    {path: '', redirectTo:'/login', pathMatch: 'full'}
 
 ];
